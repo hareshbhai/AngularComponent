@@ -2,7 +2,13 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'app-success',
     templateUrl : './success.component.html',
-    styleUrls : ['./success.component.css']
+    styles : [
+        `p{
+            padding: 10px;
+        background-color: green;
+        border : 1px solid green;
+        }`
+    ]
 })
 
 export class SuccessComponent{

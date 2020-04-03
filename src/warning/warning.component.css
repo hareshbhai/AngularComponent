@@ -1,3 +1,5 @@
 p{
-    color:orange;
+   padding: 10px;
+   background-color: orangered;
+   border : 1px solid red;
  }
